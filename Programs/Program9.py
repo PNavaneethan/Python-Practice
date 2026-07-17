@@ -13,4 +13,3 @@ if c > largest:
     print("The largest number is:", c)
 else:
     print("The largest number is:", largest)
-

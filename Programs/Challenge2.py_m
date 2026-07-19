@@ -1,0 +1,13 @@
+//Find the smallest number in a list.
+
+numbers = input().split()
+
+smallest = numbers[0]
+
+n = len(numbers)
+
+for i in range(n):
+    if smallest > numbers[i]:
+        smallest = numbers[i]
+
+print(smallest)

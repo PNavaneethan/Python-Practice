@@ -1,0 +1,11 @@
+// Reverse a String 
+
+word = str(input("Enter the word: "))
+
+n = len(word)
+reverse = ""
+
+for i in range(n,1,-1):
+    reverse += word[i]
+
+print(reverse)
